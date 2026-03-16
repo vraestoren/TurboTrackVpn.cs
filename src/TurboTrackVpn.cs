@@ -7,6 +7,7 @@ namespace TurboTrackVpnApi
     {
         private readonly HttpClient httpClient;
         private readonly string apiUrl = "https://api.turbotrackvpn.com/api/v1";
+        
         public TurboTrackVpn()
         {
             httpClient = new HttpClient();
